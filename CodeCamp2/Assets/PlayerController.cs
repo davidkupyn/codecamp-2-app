@@ -55,13 +55,6 @@ public class PlayerController : MonoBehaviour
     {
         rb2D.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
     }
-<<<<<<< Updated upstream:CodeCamp2/Assets/PlayerController.cs
-=======
-    private void Move()
-    {
-        float movmentX = Input.GetAxis("Horizontal");
-        transform.position += new Vector3(movmentX, 0, 0) * (movmentSpeed * Time.deltaTime);
->>>>>>> Stashed changes:CodeCamp2/Assets/PlayerMovment.cs
 
 
     private void CheckGround()
